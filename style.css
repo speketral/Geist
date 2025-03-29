@@ -1,0 +1,25 @@
+
+/* ========== GEIST: Base Styling ========== */
+
+:root {
+  --background: #0c0c0c;
+  --foreground: #f4f4f4;
+  --accent: #8a2be2;
+  --highlight: #f0f;
+  --muted: #666;
+  --glitch-pink: #ff0080;
+  --glitch-cyan: #00ffff;
+  --font-main: 'Inter', sans-serif;
+  --font-header: 'GeistCustomFont', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-main);
+  overflow-x: hidden;
+}
+
+/* More styles available in original source */
