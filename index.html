@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Geist</title>
+</head>
+<body>
+  <div class="container">
+    <h1 class="glitch" data-text="Geist">Geist</h1>
+    <div id="tabs">
+      <button onclick="showTab('today')">Today</button>
+      <button onclick="showTab('health')">Health</button>
+      <button onclick="showTab('wellness')">Wellness</button>
+      <button onclick="showTab('fitness')">Fitness</button>
+      <button onclick="showTab('creativity')">Creativity</button>
+      <button onclick="showTab('social')">Social</button>
+    </div>
+
+    <div id="today" class="tab-content">Welcome to Geist.</div>
+    <div id="health" class="tab-content" style="display:none;"></div>
+    <div id="wellness" class="tab-content" style="display:none;"></div>
+    <div id="fitness" class="tab-content" style="display:none;"></div>
+    <div id="creativity" class="tab-content" style="display:none;"></div>
+    <div id="social" class="tab-content" style="display:none;"></div>
+  </div>
+
+  <script src="geist.js"></script>
+</body>
+</html>
